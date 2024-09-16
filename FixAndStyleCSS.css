@@ -1,0 +1,54 @@
+a {
+    color: rgb(17, 152, 49);
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: rgb(159, 51, 18);
+    text-decoration: underline;
+}
+
+.turnwhite{
+    color: aliceblue;
+}
+
+#divexample {
+    background-color: rgb(174, 173, 228);
+    }
+
+.turnblue {
+    color: blue;
+}
+
+.spanstyle { 
+    color:orange;
+}
+
+.backyellow {
+    background-color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.Father {
+    background-color:green ;
+    color: yellow;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.turnred {
+    color: red;
+}
+
+#highlet {
+    background-color: yellow;
+}
