@@ -1,0 +1,27 @@
+nav ul {
+    list-style-type: none; /* none, disc, circle, square */
+  margin:0;
+  padding: 0;
+}
+
+nav ul li {
+    border: 1px solid #000000;
+    margin-right: 10px; /* makes space between boxs */
+    width: 200px; /* to make box around text */
+    background-color: red;
+    display: inline-block;   /*horizontal blocks */
+  }
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block; /* turns link into box from nav ul li*/
+    padding: 10px;
+
+}
+
+nav li a:hover {
+    background-color: #660000;
+    
+}
+
