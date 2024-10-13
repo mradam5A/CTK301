@@ -1,0 +1,124 @@
+body {
+    background-color: grey;
+    
+}
+
+#wrapper {   
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 4px solid #062eb2;
+  background-color: #ffffff;  /* Center box on page */
+  display: grid; 
+  grid-template-columns: repeat(6, 1fr);
+
+
+}
+
+h1 {
+  grid-column: span 4;
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  color: #6fb9ff;
+
+margin: 0px;
+  margin-bottom: -14px;
+  padding: 25px;
+  margin-right: px;
+
+  font: 30px Arial, Helvetica, sans-serif;  
+  font-style: italic;
+  
+}  
+
+ 
+nav {
+    grid-column: span 8;
+    background-color: #1335ae;
+    margin-right: 2px;
+    
+}
+nav ul { 
+    
+    list-style-type: none; /* none, disc, circle, square */
+    margin-top: 1px;
+    margin-bottom: -5px;
+
+  padding: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  }
+  
+  nav ul li {
+    
+    margin-bottom: 10px; /* makes space between boxs */
+    width: 200px; /* to make box around text */
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    display: inline-block;   /*horizontal blocks */
+    
+  
+  }
+  
+  nav li a {
+    
+    color: rgb(137, 210, 255);
+    text-decoration: none;
+    display: block; /* turns link into box from nav ul li*/
+    padding: 12px;
+   
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  }
+  
+  nav li a:hover {
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+
+h2 {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid blue;
+    margin-top: 6px; /*come back!!!*/
+    margin-bottom: 15px;
+   color: #062eb2;
+   margin-left: 5px;
+   margin: 10px;
+}
+
+
+
+.box {
+  padding: 12px;
+  width: 292px;
+}
+
+
+
+p {
+  margin: 10px;
+  padding-bottom: 10px;
+
+  a {
+    color: red; text-decoration: none;
+    font-weight: bold;
+
+  } 
+}
+
+
+
+
+footer {
+  border-top: 4px solid #062eb2;
+  background-color: rgb(187, 0, 0);
+  grid-column: span 7 ;
+  color: white;
+    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  padding: 5px;
+  margin-right: 5px;
+       
+}
