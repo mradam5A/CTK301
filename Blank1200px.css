@@ -1,6 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
   background-color: #999999;
 }
+
+
 
 #wrapper {   
   margin: 1em auto;
@@ -16,16 +22,20 @@ h1 {
   color: #000000;
   margin: 15px;
   padding: 20px;
-  font: 32px Arial, Helvetica, sans-serif;  
+  font: 32px;  
+  font-family: "Sour Gummy", serif;
   
+  border-radius: 10px;
   
 }  
+
 
  
 nav {
     grid-column: span 3;
     margin: 10px;
     margin-top: -1px;
+    font-family: "Sour Gummy", serif;
     
 }
 
@@ -35,7 +45,7 @@ nav ul {
     margin-top: 1px;
     margin-bottom: -6px;
     padding: 5px;
-  font-family: Arial, Helvetica, sans-serif;
+  
 }
   
 nav ul li {
@@ -45,6 +55,11 @@ nav ul li {
     background-color: #ABBEAA;
     display: inline-block;   /*horizontal blocks */
     margin-right: 10px;
+    box-shadow: 8px 5px 5px rgb(53, 53, 53);
+    
+  border-radius: 10px;
+  
+   
     
   
 }
@@ -61,6 +76,8 @@ nav li a {
   
 nav li a:hover {
     background-color: #768974;
+    border-radius: 10px;
+  
 }
 
 
@@ -68,12 +85,12 @@ main {
   grid-column: span 4; 
   border-bottom: 3px solid #768974;
   margin: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-family: "Sour Gummy", serif;
+  font-size: 17px;
 
 
   h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sour Gummy", serif;
     font-size: 20px;
       border-bottom: 3px solid #768974;
       margin-left: 300px;
@@ -107,7 +124,7 @@ main {
 
 footer {
   grid-column: span 2; 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Sour Gummy", serif;
 
 
 }
@@ -124,15 +141,18 @@ footer {
 }
 
 section { 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Sour Gummy", serif;
   font-size: larger; 
   background-color: #bdd3cb;
  margin: 10px;
+ 
+ border-radius: 10px;
+  
 
 
 
   h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  
   font-size: 20px;
     border-bottom: 3px solid #768974;
     margin-left: 20px;
@@ -150,7 +170,7 @@ footer {
   font-size: 17px;
  
   h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    
     font-size: 20px;
       border-bottom: 3px solid #768974;
       margin-top: 23px;
@@ -159,4 +179,18 @@ footer {
       
       
 }
+}
+
+
+
+video {
+  grid-column: span 3;
+  margin: 20px;
+}
+
+
+audio {
+  grid-column: span 3;
+  margin: 20px;
+  margin-bottom: 10px;
 }
