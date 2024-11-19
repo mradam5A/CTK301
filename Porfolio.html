@@ -7,6 +7,10 @@
 	
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+
+
 </head>
 
 <body>
@@ -83,6 +87,7 @@
 
  </footer>
 
+
  <video width="640" height="360" autoplay controls loop preload="auto" >
 	<source src="video-output-50853079-EB47-4213-B8C5-F8670CF2F2DB.mov" type="video/mp4">
   </video>
@@ -91,7 +96,24 @@
 	<source src="video-output-72F8D78C-5274-4710-B402-3D2117B44394.mov" type="audio/mpeg">
   </audio>
 
+  <div id="myCarousel" class="f-carousel">
+	<div class="f-carousel__slide"><img src="Image1.jpg"></div>
+	<div class="f-carousel__slide"><img src="Image2.jpg"></div>
+	<div class="f-carousel__slide"><img src="Image3.jpg"></div>
+</div>
+
+
+
 
 </div>
+
 </body>
+
+<script>
+    const container = document.getElementById("myCarousel");
+    const options = { infinite: false };
+    new Carousel(container, options);
+</script>
+
+
 </html>
